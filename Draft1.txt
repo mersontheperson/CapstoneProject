@@ -1,10 +1,22 @@
 ﻿Introduction
 
 
-Urban food deserts are areas in large cities where it is difficult, time consuming, expensive, or unsafe for low income households to purchase healthy food. Food deserts typically have a low density of grocery stores or supermarkets, a high density of fast food restaurants, convenience stores, or corner stores, and poor access to public transportation. Using the Foursquare location data and machine learning, neighbourhoods in New York can be evaluated based on the accessibility of healthy food compared to that of unhealthy food. This data would be useful to urban farming/gardening initiatives and potential business owners looking to market affordable healthy food to urban communities.
+Urban food deserts are areas in large cities where it is difficult, time consuming,
+expensive, or unsafe for low income households to purchase healthy food. Food deserts
+typically have a low density of grocery stores or supermarkets, a high density of
+fast food restaurants, convenience stores, or corner stores, and poor access to public
+transportation. Using the Foursquare location data and machine learning, neighbourhoods
+in New York can be evaluated based on the accessibility of healthy food compared to that
+of unhealthy food. This data would be useful to urban farming/gardening initiatives and
+potential business owners looking to market affordable healthy food to urban communities.
 
 
 Data
 
 
-The Foursquare API will be used to find the amount of grocery stores and supermarkets there are compared to restaurants, fast food, and convenience stores. The geographic data for New York and its neighbourhoods is available for free courtesy of New York University (https://geo.nyu.edu/catalog/nyu_2451_34572). The machine learning algorithm will be an unsupervised classification algorithm because the definition of a food desert is flexible and there is no directory of which NYC neighbourhoods are food deserts.
+The Foursquare API will be used to find the amount of grocery stores and supermarkets there
+are compared to restaurants, fast food, and convenience stores. The geographic data for
+New York and its neighbourhoods is available for free courtesy of New York University
+(https://geo.nyu.edu/catalog/nyu_2451_34572). The machine learning algorithm will be an
+unsupervised classification algorithm because the definition of a food desert is flexible and
+there is no directory of which NYC neighbourhoods are food deserts.
